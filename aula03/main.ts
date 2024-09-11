@@ -1,7 +1,7 @@
 import prompt from "prompt-sync";
 import {Personagem} from './personagem'
 
-let person: Personagem = new Personagem("Goku", 10, 20, 30, 2);
+let person: Personagem = new Personagem("Goku", 10, 20, 30, 40);
 let teclado = prompt();
 let option: number = 0;
 
@@ -36,7 +36,7 @@ while(option != 9){
 
         case 4:
             let rest: number = person.batalhar();
-            console.log(`Enta batalha custou: ${rest.toFixed()} de energia`);
+            console.log(`Esta batalha custou: ${rest.toFixed()} de energia`);
             console.log(person.status())
             break;
             

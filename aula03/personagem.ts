@@ -5,7 +5,7 @@ export class Personagem{
         private _energia: number = 0,
         private _ataque: number = 0,
         private _defesa: number = 0,
-        private _vida: number = 3
+        private _vida: number = 0
     ){}
     
     public get nome(): string {
