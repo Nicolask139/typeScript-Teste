@@ -5,15 +5,15 @@ let person: Personagem = new Personagem("Goku", 10, 20, 30, 40);
 let teclado = prompt();
 let option: number = 0;
 
-console.log ("Inicio jogo", person)
+console.log (person)
 
-while(option != 9){
-    console.log("=====Personagem======");
-    console.log("1. Treinar ataque");
-    console.log("2. Treinar defesa");
-    console.log("3. Descansar");
-    console.log("4. Entrar em Batalha"); 
-    console.log("9. sair");
+while(option !== 9){
+    console.log("==========Personagem==========")
+    console.log("1. Treinar ataque       🗡️    ");
+    console.log("2. Treinar defesa       🛡️    ");
+    console.log("3. Descansar            💤    ");
+    console.log("4. Entrar em Batalha    🔫    ");
+    console.log("9. sair                 🔙    ");
 
     option = +teclado("Escolha uma opção:")
 
